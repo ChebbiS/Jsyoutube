@@ -1,0 +1,65 @@
+/* Bouton customisé */
+.btn {
+    color: red;
+    border-color: red;
+}
+
+.btn:hover {
+    color: white;
+    border-color: red;
+    background-color: red;
+}
+
+/* Supprimer le flex du body qui entre en conflit */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa; /* Un fond léger */
+}
+
+/* Centrage général du contenu */
+main {
+    display: flex;
+    justify-content: center;
+}
+
+/* Section des cartes */
+#allContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    border: 3px solid red;
+    border-radius: 10px;
+    margin: 20px auto;
+    padding: 50px;
+    max-width: 1200px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+}
+
+/* Espacement entre les cartes */
+.row {
+
+    justify-content: center;
+}
+
+
+h1
+{
+    text-align: left;
+    color: red;
+}
+.card-img-top {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    border-radius: 8px;
+}
+.profile-img
+{
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    margin-right: 1em;
+}
