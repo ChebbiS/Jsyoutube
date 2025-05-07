@@ -42,3 +42,6 @@ window.onload = () => {
     displayVideos(videos);
     setupSearch();
 };
+document.getElementById("darkModeToggle").addEventListener("click", () => {
+    document.body.classList.toggle("dark-mode");
+});
