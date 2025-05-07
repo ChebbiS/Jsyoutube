@@ -1,4 +1,4 @@
-import {videos} from "/home/chebbi/Documents/Jsyoutube/data.js";
+import {videos} from "/data.js";
 function displayVideos(videosToShow) {
     const container = document.getElementById("cardRow");
     container.innerHTML = "";
